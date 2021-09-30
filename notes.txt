@@ -1,0 +1,32 @@
+saker att ändra:
+  - ändra siterubrik från att vara background-img till text (h1-tag)
+  - 'bli medlem'-sidan endast 1 bild
+  - varje mailadress ska kunnas tryckas på för att skicka mail
+  - 'bilder'-sidan borde ha några få trevliga bilder, privat bildarkiv borde ligga tillgängligt endast då man loggat in
+  - trycka på 'logga-in' + cancel leder till konstig sida, borde bara vara att man kommer tillbaks
+  - uppdatera text med aktuell info (exempelvis om lärarhuset)
+  
+  
+nya saker att lägga till
+  - ny modern design med färger, typsnitt och layout som inte känns som en hemsida från 2005.
+  - responsiv layout
+  - tydliga länkar till Instagram och Facebook
+  
+  
+  
+NAVBAR / NAVLIST
+  innehåller:
+  
+  * HISTORIA * GÅ MED * BOKA * ENGLISH 
+  
+  
+  
+FONTS
+  * Tratex
+    - Större rubriker
+  * Degular
+    - Regular: Nav
+    - Semibold: Delrubriker
+    - Text Regular: Brödtext
+  
+  

@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Tratex';
+  src: url('fonts/tratex.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TratexVit';
+  src: url('fonts/tratex-vit.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'TratexNew';
+  src: url('fonts/tratex-new.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'TratexVersal';
+  src: url('fonts/tratex-versal.woff2') format('woff2');
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+h1 {
+  font-family: TratexVersal;
+  text-transform: uppercase;
+  /*font-size: clamp(1rem, )2rem;*/
+  font-size: 1.4rem;
+  /*font-size: 4vw;*/
+}
+
+body {
+  width: 100%;
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.h1-collapse {
+  display: none;
+}
+
+/* @media screen and (min-width: 650px) {
+  .h1-collapse {
+    display: inline;
+  }
+
+} */
+
+
+
+
+header {
+  width: 100%;
+  height: fit-content;
+  /* background-color: black; */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.road-sign-outer {
+  background-color: #F70829;
+  width: 100%;
+  height: auto;
+  padding: 0.3rem;
+}
+
+.road-sign-inner {
+  background-color: #FFBD31;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 3.2rem;
+}
+
+.snow-logo {
+  width: 3rem;
+  display: inline;
+}
+
+/* Hamburger menu */
+
+.hamburger {
+  width: 2rem;
+  height: 1.4rem;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*background-color: pink;*/
+  /*padding-top: 30px;*/
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+/*.hamburger::after, .hamburger::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background-color: green;
+}
+
+.hamburger::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: 20px;
+  background-color: white;
+} */
+
+button {
+  border: none;
+  background-color: none;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 18%;
+  background-color: black;
+}
+
+header nav {
+  display: none;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header nav ul li {
+  margin-right: 2rem;
+  font-size: 1.4rem;
+  font-family: degular, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+header nav ul li:last-of-type  {
+  margin: 0;
+}
+
+
+@media screen and (min-width: 650px) {
+  .hamburger {
+    display: none;
+  }
+  
+  header nav {
+    display: block;
+  }
+
+  
+}
+
+.flag {
+  font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
