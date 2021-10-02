@@ -11,18 +11,24 @@
   </head>
   <body>
     <header>
-      <div class="road-sign-outer">
+      <div class="road-sign-outer red">
         <div class="road-sign-inner">
           <h1><span class="h1-collapse">
             Studentorkestern&nbsp;</span>Snösvänget<br>
             &&nbsp;<span class="h1-collapse">Baletten&nbsp;</span>Sparketten
           </h1>
-          <button class="hamburger">
+          <button class="mobile-menu-button">
+            <svg class="hamburger" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <svg class="close-button" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+            </svg>
+            <!--<span></span>
             <span></span>
-            <span></span>
-            <span></span>
+            <span></span>-->
           </button>
-          <nav>
+          <nav class="desktop-nav">
             <ul>
               <li>Historia</li>
               <li>Gå med</li>
@@ -32,6 +38,29 @@
           </nav>
         </div>
       </div>
+      
+      <nav class="mobile-nav">
+        <ul class="mobile-menu">
+          <li class="road-sign-outer-mobile white-bg-sign">
+            <div class="road-sign-mobile brown-sign">Historia</div>
+          </li>
+          <li class="road-sign-outer-mobile white-bg-sign">
+            <div class="road-sign-mobile blue">Gå med</div>
+          </li>
+          <li class="road-sign-outer-mobile black">
+            <div class="road-sign-mobile yellow-sign">Boka</div>
+          </li>
+          <li class="road-sign-outer-mobile black">
+            <div class="road-sign-mobile english-sign">English</div>
+          </li>
+          
+        </ul>
+      </nav>
+      
+      <div>
+        
+      </div>
     </header>
+    <script src="script.js"></script>
   </body>
 </html>

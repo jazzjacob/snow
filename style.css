@@ -18,6 +18,11 @@
   src: url('fonts/tratex-versal.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Transport';
+  src: url('fonts/transport-heavy.woff2') format('woff2');
+}
+
 
 
 * {
@@ -41,6 +46,7 @@ h1 {
 body {
   width: 100%;
   font-family: sans-serif;
+  /*background-color: #EADAD0;*/
 }
 
 li {
@@ -69,8 +75,19 @@ header {
   margin: 0 auto;
 }
 
-.road-sign-outer {
+.red {
   background-color: #F70829;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.road-sign-outer {
   width: 100%;
   height: auto;
   padding: 0.3rem;
@@ -95,18 +112,24 @@ header {
 
 /* Hamburger menu */
 
-.hamburger {
-  width: 2rem;
-  height: 1.4rem;
+.mobile-menu-button {
+  width: 2.4rem;
+  height: 2.4rem;
   background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  /*background-color: pink;*/
   /*padding-top: 30px;*/
 }
 
-.hamburger:hover {
+.close-button {
+  margin: 0.5rem;
+  display: none;
+}
+
+.hamburger svg, .close-button svg {
+  width: 100%;
+  height: 100%;
+}
+
+.mobile-menu-button:hover, {
   cursor: pointer;
 }
 
@@ -139,17 +162,17 @@ button {
   background-color: black;
 }
 
-header nav {
+.road-sign-inner .desktop-nav {
   display: none;
 }
 
-header nav ul {
+header .desktop-nav ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-header nav ul li {
+header .desktop-nav ul li {
   margin-right: 2rem;
   font-size: 1.4rem;
   font-family: degular, sans-serif;
@@ -158,7 +181,7 @@ header nav ul li {
   color: black;
 }
 
-header nav ul li:last-of-type  {
+header .desktop-nav ul li:last-of-type  {
   margin: 0;
 }
 
@@ -168,7 +191,7 @@ header nav ul li:last-of-type  {
     display: none;
   }
   
-  header nav {
+  .road-sign-inner .desktop-nav {
     display: block;
   }
 
@@ -178,6 +201,79 @@ header nav ul li:last-of-type  {
 .flag {
   font-size: 2rem;
 }
+
+.mobile-menu {
+  margin: 0.5rem 1rem;
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.road-sign-mobile {
+  width: 100%;
+  height: fit-content;
+  font-family: TratexVit;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.brown-sign {
+  background-color: #7A4A00;
+  color: white;
+}
+
+.blue {
+  background-color: #005596;
+}
+
+.yellow-sign {
+  background-color: #FFD204;
+  color: black;
+}
+
+
+.road-sign-outer-mobile {
+  width: fit-content;
+  flex: auto;
+  padding: 0.2rem;
+  margin: 0.3rem;
+  border: 1px solid transparent;
+}
+
+.english-sign {
+  font-family: Transport;
+  background-color: white;
+  color: black;
+  letter-spacing: 0.1rem;
+}
+
+.white-bg-sign {
+  background-color: white;
+  border: 1px solid lightgray;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+
+
+
+
+
 
 
 
